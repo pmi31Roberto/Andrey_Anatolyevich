@@ -39,10 +39,12 @@ cd autocorrect
 ```
 ## Перейдите в каталог проекта:
 cd autocorrect
+
 ## Установите зависимости:
 ```bash
 pip install -r requirements.txt
 ```
+
 ## Использование
 
 Пример использования:
