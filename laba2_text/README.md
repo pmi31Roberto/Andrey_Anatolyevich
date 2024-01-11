@@ -62,3 +62,12 @@ print(f"Output: {corrected_sentence}")
 Input: Thiss is an example sentence with a typppo.
 Output: This is an example sentence with a typo.
 ```
+### Использование через командную строку
+1. **Запустите скрипт autocorrect_cli.py с указанием языка и предложения:**
+   ```
+   python autocorrect_cli.py --lang ru --sentence "Превед, медвед!"
+   ```
+   Результат:
+   ```
+   Перед, медвед!
+   ```
