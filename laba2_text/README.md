@@ -12,6 +12,8 @@
 git clone https://github.com/your-username/autocorrect.git
 cd autocorrect
 ```
+## Перейдите в каталог проекта:
+cd autocorrect
 ## Основные особенности проекта:
 
 1. **Автокоррекция:**
