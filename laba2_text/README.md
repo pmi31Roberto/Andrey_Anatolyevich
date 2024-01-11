@@ -40,9 +40,20 @@ cd autocorrect
 Пример использования:
 
 ```python
+## Пример использования с опечаткой
+
+```python
 from autocorrect import Speller
 
 spell_checker = Speller(lang='en')
-corrected_sentence = spell_checker.autocorrect_sentence("This is an example sentence with typos.")
-print(corrected_sentence)
+input_sentence = "Thiss is an example sentence with a typppo."
+corrected_sentence = spell_checker.autocorrect_sentence(input_sentence)
+
+print(f"Input: {input_sentence}")
+print(f"Output: {corrected_sentence}")
+
+```
+```
+Input: Thiss is an example sentence with a typppo.
+Output: This is an example sentence with a typo.
 ```
